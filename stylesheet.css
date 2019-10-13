@@ -1,0 +1,207 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* name home button*/
+.name {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.75em;
+  position: fixed;
+  left: 35px;
+  top: 30px;
+}
+
+.name a {
+  text-decoration: none;
+  color: black;
+}
+
+.name:hover {
+  background-color: black;
+}
+
+.name:hover a {
+  color: white;
+}
+
+/* main category selection*/
+.navparent {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding-inline-start: 0px;
+  left: 35px;
+  top: 79px;
+  margin-block-start: 0em;
+}
+
+.navchild {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1em;
+  justify-content: flex-start;
+  line-height: 1.75;
+}
+
+.navchild a {
+  text-decoration: none;
+  color: black;
+}
+
+.navselect:hover {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+}
+
+/* bot about selection*/
+.botnavparent {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding-inline-start: 0px;
+  left: 35px;
+  bottom: 10px;
+  margin-block-start: 0em;
+}
+
+.botnavchild {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1em;
+  justify-content: flex-start;
+  line-height: 1.75;
+}
+
+.botnavchild a {
+  text-decoration: none;
+  color: black;
+}
+
+.botnavselect:hover {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+}
+
+/* subcategory selection*/
+.navparentselect {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding-inline-start: 0px;
+  left: 110px;
+  top: 79px;
+  margin-block-start: 0em;
+}
+
+.navchildselect {
+  font-size: 1em;
+  justify-content: flex-start;
+  line-height: 1.75;
+}
+
+.navchildselect a {
+  text-decoration: none;
+  color: black;
+}
+
+.hoverselect:hover {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+}
+
+/* subcategory work info and items*/
+.worktitle{
+  font-size: 1.5em;
+}
+.workparent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 0px;
+  margin-left: 260px;
+  margin-right: 30px;
+  justify-content: center;
+}
+
+.workchild {
+  width: 100%;
+}
+
+.workchildtext {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 0.9em;
+  line-height: 1.5;
+  width: 60%;
+}
+
+.workchildtextabout {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.1em;
+  line-height: 1.5;
+  width: 45%;
+
+}
+
+.workchildtexthome {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5;
+  width: 25%;
+}
+.worktitlehome{
+  font-size: 2em;
+}
+
+.workchildimage {
+  width: 100%;
+}
+
+.workchildimagesize {
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+  margin: 20px 0px 20px 0px;
+}
+.workchildimagesizehome {
+  height: auto;
+  width: 69%;
+  float: right;
+  margin: 0px 0px 0px 20px;
+}
+
+.workchildimagesizeabout {
+  height: auto;
+  width: 50%;
+  float: right;
+}
+.inbodylink{
+  font-size:1.1em;
+  color: #40853f;
+  text-decoration: underline;
+}
+.inbodylink:hover {
+  text-decoration: underline;
+  color: black;
+}
+.aboutlink{
+  color: #40853f;
+  text-decoration: underline;
+}
+.aboutlink:hover{
+  color:black;
+}
+
+.aboutlinkhome{
+  color: #40853f;
+  text-decoration: underline;
+    font-size: 1em;
+      font-family: 'Source Sans Pro', sans-serif;
+        line-height: 1.5;
+}
+.aboutlinkhome:hover{
+  color:black;
+}
